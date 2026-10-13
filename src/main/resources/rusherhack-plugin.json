@@ -1,11 +1,11 @@
 {
-  "Plugin-Class": "org.example.ExamplePlugin",
+  "Plugin-Class": "lol.zt8.SpawnESP",
   "Name": "${project.plugin_name}",
   "Version": "${project.plugin_version}",
-  "Description": "Example rusherhack plugin",
+  "Description": "Shows possible spawn locations",
   "URL": "https://github.com/RusherDevelopment/example-plugin",
   "Authors": [
-    "John200410"
+    "zt8"
   ],
   "Minecraft-Versions": [
     "${project.minecraft_version}"

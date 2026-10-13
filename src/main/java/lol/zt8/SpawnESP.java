@@ -1,4 +1,4 @@
-package org.example;
+package lol.zt8;
 
 import org.rusherhack.client.api.RusherHackAPI;
 import org.rusherhack.client.api.plugin.Plugin;
@@ -8,7 +8,7 @@ import org.rusherhack.client.api.plugin.Plugin;
  *
  * @author John200410
  */
-public class ExamplePlugin extends Plugin {
+public class SpawnESP extends Plugin {
 	
 	@Override
 	public void onLoad() {
@@ -17,9 +17,10 @@ public class ExamplePlugin extends Plugin {
 		this.getLogger().info("Hello World!");
 		
 		//creating and registering a new module
-		final ExampleModule exampleModule = new ExampleModule();
+		final SpawnESPModule exampleModule = new SpawnESPModule();
 		RusherHackAPI.getModuleManager().registerFeature(exampleModule);
-		
+
+		/*
 		//creating and registering a new hud element
 		final ExampleHudElement exampleHudElement = new ExampleHudElement();
 		RusherHackAPI.getHudManager().registerFeature(exampleHudElement);
@@ -27,6 +28,7 @@ public class ExamplePlugin extends Plugin {
 		//creating and registering a new command
 		final ExampleCommand exampleCommand = new ExampleCommand();
 		RusherHackAPI.getCommandManager().registerFeature(exampleCommand);
+		 */
 	}
 	
 	@Override

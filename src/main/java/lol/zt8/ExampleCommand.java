@@ -1,4 +1,4 @@
-package org.example;
+package lol.zt8;
 
 import org.rusherhack.client.api.feature.command.Command;
 import org.rusherhack.core.command.annotations.CommandExecutor;

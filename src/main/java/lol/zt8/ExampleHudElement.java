@@ -1,4 +1,4 @@
-package org.example;
+package lol.zt8;
 
 import org.rusherhack.client.api.feature.hud.ResizeableHudElement;
 import org.rusherhack.client.api.render.RenderContext;
